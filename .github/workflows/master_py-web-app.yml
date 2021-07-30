@@ -61,5 +61,3 @@ jobs:
           slot-name: 'production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_f7b6737fbad74905be83484818feff95 }}
 
-      - name : 'run the server'
-        run : python server.py
